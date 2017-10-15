@@ -63,7 +63,6 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |holiday, data|
       puts "#{holiday}: #{data}"
-    end
   end
 end
 
